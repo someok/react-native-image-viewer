@@ -1,0 +1,67 @@
+{
+    "name": "@someok/react-native-image-viewer",
+    "version": "0.0.0",
+    "description": "react native image viwer",
+    "main": "lib/index.js",
+    "scripts": {
+        "clean": "rimraf lib",
+        "build": "tsc",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "react-native",
+        "image",
+        "viewer"
+    ],
+    "author": {
+        "name": "JX Wang",
+        "email": "wjianxu@gmail.com",
+        "url": "https://github.com/someok"
+    },
+    "license": "MIT",
+    "homepage": "https://github.com/someok/react-native-image-viewer#readme",
+    "repository": {
+        "url": "git+https://github.com/someok/react-native-image-viewer.git",
+        "type": "git"
+    },
+    "bugs": {
+        "url": "https://github.com/someok/react-native-image-viewer/issues"
+    },
+    "peerDependencies": {
+        "react": "*",
+        "react-native": "*",
+        "react-native-gesture-handler": "*",
+        "react-native-reanimated": "*"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.7.2",
+        "@babel/preset-env": "^7.7.1",
+        "@babel/preset-typescript": "^7.7.2",
+        "@commitlint/cli": "^8.2.0",
+        "@commitlint/config-conventional": "^8.2.0",
+        "@commitlint/prompt-cli": "^8.2.0",
+        "@types/react": "^16.9.11",
+        "@types/react-native": "^0.60.22",
+        "@typescript-eslint/eslint-plugin": "^2.8.0",
+        "@typescript-eslint/parser": "^2.8.0",
+        "babel-eslint": "^10.0.3",
+        "eslint": "^6.6.0",
+        "eslint-config-prettier": "^6.7.0",
+        "eslint-plugin-prettier": "^3.1.1",
+        "husky": "^3.1.0",
+        "lint-staged": "^9.4.3",
+        "prettier": "^1.19.1",
+        "react": "^16.12.0",
+        "react-native": "^0.61.4",
+        "react-native-gesture-handler": "^1.5.0",
+        "react-native-reanimated": "^1.4.0",
+        "rimraf": "^3.0.0",
+        "ts-jest": "^24.1.0",
+        "ts-node": "^8.5.2",
+        "typescript": "^3.7.2"
+    },
+    "files": [
+        "src",
+        "dist"
+    ]
+}
